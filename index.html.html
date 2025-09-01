@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Children's Garden School</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #fff8e6;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 100px;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+
+    /* Welcome Section */
+    .welcome {
+      background: #fff;
+      border: 3px solid #ff9c2c;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .welcome-text {
+      max-width: 500px;
+    }
+    .welcome img {
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    /* Teacher Section */
+    .teacher {
+      background: #ff5c2c;
+      padding: 30px 20px;
+      margin: 20px 0;
+      border-radius: 12px;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .teacher img {
+      width: 220px;
+      border-radius: 12px;
+    }
+    .teacher-text {
+      max-width: 500px;
+    }
+
+    /* News Section */
+    .news {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .news h2 {
+      background: #ffda2c;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .news-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+    }
+
+    /* Links to Classes */
+    .classes {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .classes h2 {
+      background: #ffda2c;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .class-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .class-links div {
+      background: #fff;
+      border: 2px solid #333;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* Facilities */
+    .facilities {
+      padding: 30px 20px;
+      background: #e9ffe6;
+      border-radius: 12px;
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .facilities div {
+      background: #fff;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      border: 2px solid #333;
+    }
+
+    /* Contact */
+    .contact {
+      background: #ffd6c9;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .contact h2 {
+      color: #00a8e8;
+      margin-bottom: 15px;
+    }
+    .contact a {
+      color: #000;
+      font-weight: bold;
+    }
+    .socials {
+      margin-top: 15px;
+    }
+    .socials img {
+      width: 30px;
+      margin: 0 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .welcome, .teacher {
+        flex-direction: column;
+        text-align: center;
+      }
+      .news-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="school-logo.png" alt="School Logo">
+    <h1>Children's Garden School</h1>
+  </header>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <div class="welcome-text">
+      <h2>Welcome to Children’s Garden School</h2>
+      <p>English Medium, Pre Nursery to 8<sup>th</sup></p>
+    </div>
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4npwWFfRsIi7rBJgXN5y2c9tc2CtLwaq_A5TgGSv9dqaffIR0XEmbnOfOHvBW-oDiA60yvVvckpOQtZwro90u2X5QPDYa4XEJ_Z-kELUVwO3xzKAb44AZyIWcxSIpTJjOEU1pHlM=s1360-w1360-h1020-rw" alt="School Event">
+  </section>
+
+  <!-- Teacher Section -->
+  <section class="teacher">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipMMNxTymT_RX9_uwFIWWveXG3H14ltf_SSATa4I=s1360-w1360-h1020-rw" alt="Teacher">
+    <div class="teacher-text">
+      <h3>Teacher</h3>
+      <p>Good day to everyone! Let’s enjoy learning together this school year.  
+      I’ll take you through our hub to get to know our agenda ahead.</p>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section class="news">
+    <h2>School News</h2>
+    <div class="news-cards">
+      <div class="card">
+        <h3>Career Day is Here!</h3>
+        <p>We will be having our Career Day next week! Dress up in your dream career attire and tell us about it.</p>
+      </div>
+      <div class="card">
+        <h3>Submit your Art Entries</h3>
+        <p>Our annual Inter-School Art Competition will be held next week. Special prizes await our aspiring artists!</p>
+      </div>
+      <div class="card">
+        <h3>Get ready for our Science Fair</h3>
+        <p>Discover fun experiments and interactive activities at our Science Fair prepared by the Science department.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Classes Section -->
+  <section class="classes">
+    <h2>Links to Classes</h2>
+    <div class="class-links">
+      <div>Hindi</div>
+      <div>English</div>
+      <div>Science</div>
+      <div>Math</div>
+      <div>S.S.T</div>
+      <div>Computer and Arts</div>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section class="facilities">
+    <div>Huge play ground</div>
+    <div>Computer lab</div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact us</h2>
+    <p><b>Mob:</b> <a href="tel:07068616755">070686 16755</a></p>
+    <p><b>Address:</b> 174/2, Mehdaori Gaon, Rasulabad, Teliarganj, Prayagraj, Uttar Pradesh 211004</p>
+    <div class="socials">
+      <a href="#"><img src="https://static.designboom.com/wp-content/uploads/2023/09/facebook-new-logo-change-designboom-02.jpg"alt="Facebook"></a>
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"></a>
+    </div>
+  </section>
+
+</body>
+</html>
